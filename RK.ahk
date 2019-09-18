@@ -6,5 +6,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 CapsLock::LControl
 BS::\
 \::BS
-#Esc::`
+#Esc::Sc029
 +Esc::~
