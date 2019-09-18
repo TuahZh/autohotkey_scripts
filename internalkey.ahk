@@ -103,3 +103,8 @@ return
 !t::
 Send, {Ctrl down}t{Ctrl up}
 return
+
+; Quick quit
+^BS::
+Suspend
+return
