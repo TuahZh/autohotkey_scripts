@@ -107,3 +107,11 @@ return
 !t::
 Send, {Ctrl down}t{Ctrl up}
 return
+
+; Mouse direction
+WheelUp::
+Send {WheelDown}
+Return
+WheelDown::
+Send {WheelUp}
+Return
